@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oMR6B6FF1MtGn9ySR8yNFrQtfRsHZO1poZnFuwvTNedmZUSV/8zEzxsUgvEZGcSLL/cVQ1Ypi4BnuHCQIpaEDw==",
+  "dgSpecHash": "ovliqhynx57u2gTP0BCO9F8Vk42Td/5YNlFsglBK6QOdEfrHlLyEh0UfAPbju1zIs+JYlYma5uAZd+fqO7k6SQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lande\\Documents\\OOP - A2 - Code\\CalculatorApplication\\CalculatorApplication.csproj",
+  "projectFilePath": "C:\\Users\\lande\\Documents\\GUIShapeCalculator\\CalculatorApplication.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

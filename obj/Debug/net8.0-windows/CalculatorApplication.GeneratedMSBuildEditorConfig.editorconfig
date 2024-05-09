@@ -14,6 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CalculatorApplication
-build_property.ProjectDir = C:\Users\lande\Documents\OOP - A2 - Code\CalculatorApplication\
+build_property.ProjectDir = C:\Users\lande\Documents\GUIShapeCalculator\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

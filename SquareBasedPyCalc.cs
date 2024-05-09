@@ -59,6 +59,5 @@ namespace CalculatorApplication
             // Displays output to the user in the answer box.
             tb_answer.Text = $"{answer}{cb_units_tri.Text}{powerOfThreeSymbol}";
         }
-        }
     }
 }

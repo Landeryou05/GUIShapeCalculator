@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lande\\Documents\\OOP - A2 - Code\\CalculatorApplication\\CalculatorApplication.csproj": {}
+    "C:\\Users\\lande\\Documents\\GUIShapeCalculator\\CalculatorApplication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lande\\Documents\\OOP - A2 - Code\\CalculatorApplication\\CalculatorApplication.csproj": {
+    "C:\\Users\\lande\\Documents\\GUIShapeCalculator\\CalculatorApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lande\\Documents\\OOP - A2 - Code\\CalculatorApplication\\CalculatorApplication.csproj",
+        "projectUniqueName": "C:\\Users\\lande\\Documents\\GUIShapeCalculator\\CalculatorApplication.csproj",
         "projectName": "CalculatorApplication",
-        "projectPath": "C:\\Users\\lande\\Documents\\OOP - A2 - Code\\CalculatorApplication\\CalculatorApplication.csproj",
+        "projectPath": "C:\\Users\\lande\\Documents\\GUIShapeCalculator\\CalculatorApplication.csproj",
         "packagesPath": "C:\\Users\\lande\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lande\\Documents\\OOP - A2 - Code\\CalculatorApplication\\obj\\",
+        "outputPath": "C:\\Users\\lande\\Documents\\GUIShapeCalculator\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
