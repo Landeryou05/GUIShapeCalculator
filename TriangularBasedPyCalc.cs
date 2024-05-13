@@ -52,10 +52,19 @@ namespace CalculatorApplication
 
             string powerOfThreeSymbol = "\u00B3";
 
-            string answer = ((((baseLengthInput * basePerpendicularHeightInput) / 2) * perpendicularHeight) / 3).ToString("0.00");
+            _3DShape _3DShapeCalculation = new _3DShape();
+            string answer = _3DShapeCalculation.triBasedPy(baseLengthInput, basePerpendicularHeightInput, perpendicularHeight);
 
-            // Displays output to the user in the answer box.
-            tb_answer.Text = $"{answer}{cb_units_tri.Text}{powerOfThreeSymbol}";
+            if (cb_units_tri.Text != "(Not Selected)")
+            {
+                // Displays output to the user in the answer box.
+                tb_answer.Text = $"{answer}{cb_units_tri.Text}{powerOfThreeSymbol}";
+            }
+            else
+            {
+                tb_answer.Text = "ERROR: Please Select Unit";
+            }
+
         }
 
         private void btn_mainmenu_tripy_Click_1(object sender, EventArgs e)

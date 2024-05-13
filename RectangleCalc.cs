@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
@@ -63,11 +64,21 @@ namespace CalculatorApplication
             heightInput = double.Parse(tb_height.Text);
 
             // Declaring new variables to give the formula for the answer and also its format.
-            string answer = (baseInput * heightInput).ToString("0.00");
+
+            _2DShape _2DShapeCalculation = new _2DShape();
+            string answer = _2DShapeCalculation.rectangleCalculation(baseInput, heightInput);
+
             string squaredSymbol = "\u00B2";
 
-            // Displays output to the user in the answer box.
-            tb_answer.Text = $"{answer}{cb_units_rec.Text}{squaredSymbol}";
+            if (cb_units_rec.Text != "(Not Selected)")
+            {
+                // Displays output to the user in the answer box.
+                tb_answer.Text = $"{answer}{cb_units_rec.Text}{squaredSymbol}";
+            }
+            else
+            {
+                tb_answer.Text = "ERROR: Please Select Unit";
+            }
         }
 
         /// <summary>

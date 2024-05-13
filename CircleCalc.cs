@@ -34,11 +34,20 @@ namespace CalculatorApplication
         {
             radiusInput = double.Parse(tb_radius.Text);
 
-            string answer = (Math.PI * (Math.Pow(radiusInput, 2))).ToString("0.00");
+            _2DShape _2DShapeCalculation = new _2DShape();
+            string answer = _2DShapeCalculation.circleCalculation(radiusInput);
+
             string squaredSymbol = "\u00B2";
 
-            // Displays output to the user in the answer box.
-            tb_answer.Text = $"{answer}{cb_units_cir.Text}{squaredSymbol}";
+            if (cb_units_cir.Text != "(Not Selected)")
+            {
+                // Displays output to the user in the answer box.
+                tb_answer.Text = $"{answer}{cb_units_cir.Text}{squaredSymbol}";
+            }
+            else
+            {
+                tb_answer.Text = "ERROR: Please Select Unit";
+            }
         }
 
         private void btn_mainmenu_cir_Click_1(object sender, EventArgs e)

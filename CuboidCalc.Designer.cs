@@ -116,7 +116,7 @@
             tb_answer.Location = new Point(351, 320);
             tb_answer.Name = "tb_answer";
             tb_answer.ReadOnly = true;
-            tb_answer.Size = new Size(97, 23);
+            tb_answer.Size = new Size(163, 23);
             tb_answer.TabIndex = 25;
             tb_answer.TextAlign = HorizontalAlignment.Center;
             // 

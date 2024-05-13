@@ -53,11 +53,20 @@ namespace CalculatorApplication
             perpendicularHeightInput = double.Parse(tb_height.Text);
 
             // The equation for the calculation is different as it is for a triangle
-            string answer = ((baseInput * perpendicularHeightInput) / 2).ToString("0.00");
+            _2DShape _2DShapeCalculation = new _2DShape();
+            string answer = _2DShapeCalculation.traingleCalculation(baseInput, perpendicularHeightInput);
+
             string squaredSymbol = "\u00B2";
 
-            // Displays output to the user in the answer box.
-            tb_answer.Text = $"{answer}{cb_units_tri.Text}{squaredSymbol}";
+            if (cb_units_tri.Text != "(Not Selected)")
+            {
+                // Displays output to the user in the answer box.
+                tb_answer.Text = $"{answer}{cb_units_tri.Text}{squaredSymbol}";
+            }
+            else
+            {
+                tb_answer.Text = "ERROR: Please Select Unit";
+            }
         }
     }
 }
